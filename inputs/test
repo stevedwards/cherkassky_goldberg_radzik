@@ -1,0 +1,4 @@
+#
+limit cputime 1200
+
+../bin/spgrid 16 512 281 -cl10000 | ../bin/$1 > ../results/$1.$0
